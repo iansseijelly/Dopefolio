@@ -1,230 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Details of RISC-V CPU</title>
-    <meta name="description" content="Case study page of Project" />
 
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Details of RISC-V CPU</title>
+  <meta name="description" content="Case study page of Project" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="./assets/png/john-doe.png"
-              alt="Ram Maheshwari Logo Image"
-              class="header__logo-img"
-            />
-          </div>
-          <span class="header__logo-sub">John Doe</span>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/jpeg/ChengyiZhang.jpg" alt="Ram Maheshwari Logo Image" class="header__logo-img" />
         </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
-            </li>
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
+        <span class="header__logo-sub">Chengyi Lux Zhang</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">About </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">
+              Projects
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#contact" class="header__link"> Contact </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> About </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projects </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="project-cs-hero">
+    <div class="project-cs-hero__content">
+      <h1 class="heading-primary">RISC-V CPU</h1>
+      <div class="project-cs-hero__info">
+        <p class="text-primary">
+          Designed and Implemented a 3-stage pipeline CPU using RISC-V ISA with no extension. Incorporated
+          a direct-mapped, write-back cache. Simulated and synthesized.
+        </p>
+      </div>
+      <div class="project-cs-hero__info">
+        <p class="text-secondary">
+          Chengyi Lux Zhang, Yichuan Steven Ding
+        </p>
+      </div>
+      <div class="project-cs-hero__cta">
+        <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+      </div>
+    </div>
+  </section>
+  <section class="project-details">
+    <div class="main-container">
+      <div class="project-details__content">
+        <div class="project-details__showcase-img-cont">
+          <img src="./assets/png/RISC-V CPU.png" alt="Project Image" class="project-details__showcase-img" />
+        </div>
+        <div class="project-details__content-main">
+          <div class="project-details__desc">
+            <h3 class="project-details__content-title">Project Overview</h3>
+            <p class="project-details__desc-para">
+              The diagram above is the pipeline diagram we ended up using for the final design. In the initial design,
+              we have IF, D+E, and M+WB. However, we later found out the need to put the DMEM on the brink of two
+              pipeline stages because it is a clocked component and doesn't support asynchronous read. So we ended up
+              having to put IMEM and DMEM on the edge between two stages to save cycles and improve performance.
+
+              A very cool part to brag about this design is the special PC register logic in the Instruction Fetching
+              stage. We have designed it so that the mux chooses PC or the branch/jump target to feed into the IMEM and
+              PC_D register, but the PC_reg updates its value based on either PC+4 or target+4. This way, we can
+              (brilliantly) avoid any control hazards from branching or jump and thus avoid writing any logic for branch
+              prediction. This design has the additional benefit of not needing to reset the PC_reg to target-4, so we
+              kept the entire system intuitive and readable.
+
+              Writing the datapath and the control logic is a relatively simple. All the components are explicitly
+              drawn, and connections are out there as well. It is more of a labor than an intellectual work to just to
+              code down the stream.
+
+              However, because we firstly had no idea what is a CSR(Control Status Register) and decided to ignore it
+              for now, we ran into the middle of nowhere for quite a while. Turns out the test programs utilizes the CSR
+              to check for errors.
+
+              After finishing up the CSR, it is just a matter of labor work again to fix up the rest of the code. Of
+              course we make terrible coding mistakes along the way, so we must do test-oriented programming, finding
+              and fixing them manually. We fixed them in the order of arithmetic operations => load word => the rest of
+              load instructions => store instructions. This part of debugging only took about a weekend, so it is quite
+              a breeze comparing to what's coming next.
+            </p>
+
+          </div>
+          <div class="project-details__showcase-img-cont">
+            <img src="./assets/png/RISC-V CPU.png" alt="Project Image" class="project-details__showcase-img" />
+          </div>
+          <div class="project-details__desc">
+            <h3 class="project-details__content-title">Cache</h3>
+            <p class="project-details__desc-para">
+              Cache is where we suffered the most for sure. We were asked to design and implement a direct-mapped cache
+              that is 2kB, with each cache line 512 bits. The maximum size of a DRAM available to us, though, its only
+              128 bits wide (64*128), so each of the read and write operations take 4 repetitive steps to complete.
+
+              This requires us to create a counter within the cache to keep track of what is being loaded already and
+              how many more are required. In other words, the interface between the cache and the main memory is itself
+              another small FSM! This is an exciting observation, and we decided to create a separate module to bring
+              this obseration to life. This leads us to the mem-loader module, the bridge between cache and main memory.
+
+              This design turns out to be fruitful in a lot of ways. Firstly, it carries out both the read and write at
+              the same time, leaving the cache to be a black box to only needing to send requests by RW=1 or 0.
+              Secondly, it makes the system very flexible and compatible to changes in adding additional layers of
+              cache, or possibly swapping the lowest level of cache, while not confusing the main memory with changed
+              requests. Lastly, this design is way easier to debug because it shows a clearer flow of signal and
+              requests from the cache to the main memory.
+
+              When cache is firstly implemented, our previous passed tests turn out to crumble down, even those R-type
+              instructions that should be independent of any cache changes. Turns out the instruction cache isn't
+              behaving as espected, so we connected only the icache and connected the data cache to a golden model for
+              debugging purposes. This lead us to easily sort out the bug and solve it.
+
+              However, icache processes no write requests, so it is considerably easier. Afterward, we need to solve for
+              dcache and write request related bugs. Turns out the data_write_enable signal should not be impacted by
+              the stalls. Fixing it fixed all the asm bugs, which means our cache works in some small programs for now.
+
+              The benchmark test, which are larger tests specifically for testing cache accuracy and performance, took
+              considerably longer to run (probably hours). We were stucked here for a long time, even taking a peek at
+              the waveform became a difficult thing. Turns out the time out cycle was set to be 5*10^n, something super
+              large, and we ran into an infinite loop. Fixing that, we started to debug for the write back part of the
+              cache.
+
+              Writing back is definitely the trickiest bug of the entire project. We primarily worked on a program in
+              which 'Go Bears!' are capitialized into 'GO BEARS!'. This is actually quite fun because the waveform tool
+              can transform series of bits into ASCII characters, and you can see all kinds of nonsenses being produced
+              XD.
+
+              Turns out the bug is, our Cache FSM is lacking a stage of reading the right thing from the cache before
+              writing things back. This is why you can see things like GOAB popping around our waveforms. Fixing this,
+              and some other minor bugs in other bmark tests, gave us the desired results of passing all the bmark
+              tests.
+            </p>
+
+          </div>
+          <div class="project-details__tools-used">
+            <h3 class="project-details__content-title">Tools Used</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">Shopify</div>
+              <div class="skills__skill">Wordpress</div>
+              <div class="skills__skill">Google ADS</div>
+              <div class="skills__skill">Facebook Ads</div>
+              <div class="skills__skill">Android</div>
+              <div class="skills__skill">IOS</div>
+            </div>
+          </div>
+          <div class="project-details__links">
+            <h3 class="project-details__content-title">See Live</h3>
+            <a href="#" class="btn btn--med btn--theme project-details__links-btn" target="_blank">Live Link</a>
+            <a href="#" class="btn btn--med btn--theme-inv project-details__links-btn" target="_blank">Code Link</a>
           </div>
         </div>
       </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
-          </ul>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="./assets/png/twitter-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="./assets/png/yt-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt="icon" />
+            </a>
+          </div>
         </div>
-      </div>
-    </header>
-    <section class="project-cs-hero">
-      <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 3</h1>
-        <div class="project-cs-hero__info">
-          <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">John Doe</h4>
+          <p class="main-footer__short-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
+            tempora explicabo quae quod deserunt
           </p>
         </div>
-        <div class="project-cs-hero__cta">
-          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
-        </div>
       </div>
-    </section>
-    <section class="project-details">
-      <div class="main-container">
-        <div class="project-details__content">
-          <div class="project-details__showcase-img-cont">
-            <img
-              src="./assets/jpeg/project-mockup-example.jpeg"
-              alt="Project Image"
-              class="project-details__showcase-img"
-            />
-          </div>
-          <div class="project-details__content-main">
-            <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
-              </p>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
-              </p>
-            </div>
-            <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
-              <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">React</div>
-                <div class="skills__skill">SASS</div>
-                <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Shopify</div>
-                <div class="skills__skill">Wordpress</div>
-                <div class="skills__skill">Google ADS</div>
-                <div class="skills__skill">Facebook Ads</div>
-                <div class="skills__skill">Android</div>
-                <div class="skills__skill">IOS</div>
-              </div>
-            </div>
-            <div class="project-details__links">
-              <h3 class="project-details__content-title">See Live</h3>
-              <a
-                href="#"
-                class="btn btn--med btn--theme project-details__links-btn"
-                target="_blank"
-                >Live Link</a
-              >
-              <a
-                href="#"
-                class="btn btn--med btn--theme-inv project-details__links-btn"
-                target="_blank"
-                >Code Link</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
-            <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
-            </p>
-          </div>
-        </div>
 
-        <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
-        </div>
+      <div class="main-footer__lower">
+        &copy; Copyright 2021. Made by
+        <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a>
       </div>
-    </footer>
-    <script src="./index.js"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+
 </html>
