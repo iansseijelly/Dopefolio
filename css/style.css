@@ -179,6 +179,17 @@ textarea {
   @media only screen and (max-width: 37.5em) {
     .text-primary {
       font-size: 2rem; } }
+  
+.text-secondary{
+  color: #777;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 100%;
+  line-height: 1.6; }
+  @media only screen and (max-width: 37.5em) {
+    .text-secondary {
+      font-size: 1.6rem; } }
+
 
 .d-none {
   display: none; }
