@@ -702,3 +702,15 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+
+.text-secondary{
+  color: #fff;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 100%;
+  line-height: 1.6; }
+  @media only screen and (max-width: 37.5em) {
+    .text-secondary {
+      font-size: 1.6rem; } }
+    
