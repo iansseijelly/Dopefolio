@@ -2,8 +2,8 @@
   color: #fff;
   background: linear-gradient(
       to right,
-      rgba($themeClrPrimary, 1.0),
-      rgba($themeClrPrimary, 0.85)
+      rgba(#fff, 1.0),
+      rgba(#fff, 0.85)
     ),
     url(../../assets/svg/matrix.svg);
   background-position: center;
@@ -190,8 +190,8 @@
 .contact {
   background: linear-gradient(
       to left,
-      rgba($themeClrPrimary, 1.0),
-      rgba($themeClrPrimary, 0.85)
+      rgba($themeClrPrimary, 0.9),
+      rgba($themeClrPrimary, 0.7)
     ),
     url(../../assets/svg/link-bg.svg);
   background-size: cover;
