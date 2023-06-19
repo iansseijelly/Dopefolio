@@ -144,6 +144,19 @@
   }
 }
 
+.text-secondary{
+  color: #fff;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 100%;
+  line-height: 1.6; 
+
+  @include respond(phone) {
+    font-size: 2rem;
+  }
+}
+    
+
 
 .d-none {
   display: none;
