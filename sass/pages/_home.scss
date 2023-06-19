@@ -2,10 +2,10 @@
   color: #fff;
   background: linear-gradient(
       to right,
-      rgba($themeClrPrimary, 0.8),
-      rgba($themeClrPrimary, 0.6)
+      rgba($themeClrPrimary, 1.0),
+      rgba($themeClrPrimary, 0.85)
     ),
-    url(../../assets/svg/link-bg.svg);
+    url(../../assets/svg/matrix.svg);
   background-position: center;
 
   height: 100vh;
@@ -189,11 +189,11 @@
 
 .contact {
   background: linear-gradient(
-      to right,
-      rgba($themeClrPrimary, 0.8),
-      rgba($themeClrPrimary, 0.8)
+      to left,
+      rgba($themeClrPrimary, 1.0),
+      rgba($themeClrPrimary, 0.85)
     ),
-    url(../../assets/svg/common-bg.svg);
+    url(../../assets/svg/link-bg.svg);
   background-size: cover;
   background-position: center;
 
