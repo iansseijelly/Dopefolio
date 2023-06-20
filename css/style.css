@@ -205,8 +205,6 @@ textarea {
 
 .home-hero {
   color: #000;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../../assets/svg/matrix.svg);
-  background-position: center;
   height: 100vh;
   min-height: 80rem;
   max-height: 120rem;
