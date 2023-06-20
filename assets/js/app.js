@@ -5,9 +5,12 @@ const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
+ctx.fillStyle = '#fff';
+// Fill the entire canvas with the white color
+ctx.fillRect(0, 0, canvas.width, canvas.height);
 
 //single color
-const singleColor = "#0aff0a";
+const singleColor = "#df1a21";
 
 //gradient color
 let gradientColor = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
