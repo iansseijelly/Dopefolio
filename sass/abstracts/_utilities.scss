@@ -3,6 +3,7 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
+  color:#fff;
   @include respond(phone) {
     font-size: 4.5rem;
   }
