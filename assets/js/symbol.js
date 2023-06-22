@@ -1,7 +1,7 @@
 export default class Symbol {
   constructor(x, y, fontSize, canvasHeight) {
     this.chracters =
-      "アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      "春江潮水连海平海上明月共潮生江畔何人初见月江月何年初照人鸿雁长飞光不度鱼龙潜跃水成文斜月沉沉藏海雾碣石潇湘无限路";
     this.x = x;
     this.y = y;
     this.fontSize = fontSize;
