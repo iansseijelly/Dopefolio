@@ -38,7 +38,7 @@ function animate(timeStamp) {
   // and reset timer to zero else add delta time
   if (timer > nextframe) {
     // drawing transparent rectangle over text to hide previous text
-    ctx.fillStyle = "rgba(0,0, 0, 0.08)";
+    ctx.fillStyle = "rgba(0,0, 0, 0.06)";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     // text color
     ctx.fillStyle = defaultColor;
