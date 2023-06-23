@@ -104,7 +104,7 @@ textarea {
     top: calc(100% + 1.5rem);
     height: 5px;
     width: 3rem;
-    background: #2f971a;
+    background: #0aff0a;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px; }
@@ -156,12 +156,12 @@ textarea {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
   .btn--theme {
-    background: #2f971a;
+    background: #0aff0a;
     color: #fff; }
   .btn--theme-inv {
-    color: #2f971a;
+    color: #0aff0a;
     background: #fff;
-    border: 2px solid #2f971a;
+    border: 2px solid #0aff0a;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
@@ -203,6 +203,9 @@ textarea {
 
 .d-none {
   display: none; }
+
+#canvas {
+  width: 100%; }
 
 .home-hero {
   color: #000;
@@ -342,7 +345,7 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to left, rgba(47, 151, 26, 0.9), rgba(47, 151, 26, 0.7)), url(../../assets/svg/link-bg.svg);
+  background: linear-gradient(to left, rgba(10, 255, 10, 0.9), rgba(10, 255, 10, 0.7)), url(../../assets/svg/link-bg.svg);
   background-size: cover;
   background-position: center; }
   .contact__form-container {
@@ -423,7 +426,7 @@ textarea {
 
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(47, 151, 26, 0), rgba(47, 151, 26, 0)), url(../../assets/svg/cyber.svg);
+  background: linear-gradient(to right, rgba(10, 255, 10, 0), rgba(10, 255, 10, 0)), url(../../assets/svg/cyber.svg);
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -534,14 +537,14 @@ textarea {
     color: #333;
     transition: color .3s; }
     .header__logo-container:hover {
-      color: #2f971a; }
+      color: #0aff0a; }
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: #2f971a; }
+    background: #0aff0a; }
     @media only screen and (max-width: 56.25em) {
       .header__logo-img-cont {
         width: 4.5rem;
@@ -573,7 +576,7 @@ textarea {
     font-weight: 700;
     transition: color .3s; }
     .header__link:hover {
-      color: #2f971a; }
+      color: #0aff0a; }
     @media only screen and (max-width: 56.25em) {
       .header__link {
         padding: 3rem 1.8rem;
@@ -620,7 +623,7 @@ textarea {
     letter-spacing: 2px;
     transition: color .3s; }
     .header__sm-menu-link a:hover {
-      color: #2f971a; }
+      color: #0aff0a; }
   .header__sm-menu-link:first-child a {
     border-top: 1px solid #eee; }
   .header__sm-menu-link-last {

@@ -7,7 +7,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 //single color
-const singleColor = "#0aff0a";
+const greenColor = "#0aff0a";
 
 //gradient color
 let gradientColor = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
@@ -19,13 +19,13 @@ gradientColor.addColorStop(0.8, "blue");
 gradientColor.addColorStop(0, "magenta");
 
 // default color
-let defaultColor = singleColor;
+let defaultColor = greenColor;
 
 // creating effect object which initializes symbols array with Symbol objects
 const effect = new Effect(canvas.width, canvas.height);
 
 let lastTime = 0;
-const fps = 50;
+const fps = 60;
 const nextframe = 1000 / fps; //for fps = 50, nextFrame = 20
 let timer = 0;
 
@@ -38,7 +38,7 @@ function animate(timeStamp) {
   // and reset timer to zero else add delta time
   if (timer > nextframe) {
     // drawing transparent rectangle over text to hide previous text
-    ctx.fillStyle = "rgba(0,0, 0, 0.05)";
+    ctx.fillStyle = "rgba(0,0, 0, 0.08)";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     // text color
     ctx.fillStyle = defaultColor;
@@ -72,9 +72,9 @@ window.addEventListener("resize", () => {
 
 //double mouse click event
 window.addEventListener("dblclick", () => {
-  defaultColor === singleColor
+  defaultColor === greenColor
     ? (defaultColor = gradientColor)
-    : (defaultColor = singleColor);
+    : (defaultColor = greenColor);
 });
 
 //double touch event on touch screen devices
@@ -83,9 +83,9 @@ window.addEventListener("touchend", () => {
   var now = new Date().getTime();
   if (now - lastTouchEnd <= 300) {
     // Code to be executed when a double-tap is detected
-    defaultColor === singleColor
+    defaultColor === greenColor
       ? (defaultColor = gradientColor)
-      : (defaultColor = singleColor);
+      : (defaultColor = greenColor);
   }
   lastTouchEnd = now;
 });
