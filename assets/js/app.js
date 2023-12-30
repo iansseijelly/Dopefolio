@@ -70,25 +70,25 @@ window.addEventListener("resize", () => {
   gradientColor.addColorStop(0, "magenta");
 });
 
-//double mouse click event
-window.addEventListener("dblclick", () => {
-  defaultColor === greenColor
-    ? (defaultColor = gradientColor)
-    : (defaultColor = greenColor);
-});
+// //double mouse click event
+// window.addEventListener("dblclick", () => {
+//   defaultColor === greenColor
+//     ? (defaultColor = gradientColor)
+//     : (defaultColor = greenColor);
+// });
 
-//double touch event on touch screen devices
-var lastTouchEnd = 0;
-window.addEventListener("touchend", () => {
-  var now = new Date().getTime();
-  if (now - lastTouchEnd <= 300) {
-    // Code to be executed when a double-tap is detected
-    defaultColor === greenColor
-      ? (defaultColor = gradientColor)
-      : (defaultColor = greenColor);
-  }
-  lastTouchEnd = now;
-});
+// //double touch event on touch screen devices
+// var lastTouchEnd = 0;
+// window.addEventListener("touchend", () => {
+//   var now = new Date().getTime();
+//   if (now - lastTouchEnd <= 300) {
+//     // Code to be executed when a double-tap is detected
+//     defaultColor === greenColor
+//       ? (defaultColor = gradientColor)
+//       : (defaultColor = greenColor);
+//   }
+//   lastTouchEnd = now;
+// });
 
 function swRegistration() {
   const heart = [
