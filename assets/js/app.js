@@ -25,7 +25,7 @@ let defaultColor = greenColor;
 const effect = new Effect(canvas.width, canvas.height);
 
 let lastTime = 0;
-const fps = 60;
+const fps = 120;
 const nextframe = 1000 / fps; //for fps = 50, nextFrame = 20
 let timer = 0;
 
